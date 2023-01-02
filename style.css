@@ -85,12 +85,14 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 32px;
+  padding-bottom: 30px;
 }
 
 .images-info-title {
   padding-bottom: 32px;
   font-size: 36px;
   color: #1f2937;
+  font-weight: bold;
 }
 
 .container {
@@ -116,4 +118,26 @@ div {
   width: 100px;
   border: solid lightblue;
   border-radius: 25px;
+}
+
+.quote {
+  padding: 60px 0px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-style: italic;
+  color: #1f2937;
+  align-self: flex-end;
+  padding-right: 60px;
 }
