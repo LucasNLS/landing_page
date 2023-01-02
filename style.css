@@ -5,6 +5,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   font-family: Roboto;
+  justify-content: space-between;
 }
 
 .header {
@@ -121,7 +122,7 @@ div {
 }
 
 .quote {
-  padding: 60px 0px;
+  padding: 60px 200px;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -140,4 +141,32 @@ div {
   color: #1f2937;
   align-self: flex-end;
   padding-right: 60px;
+}
+
+.call {
+  margin: 70px 100px;
+  background-color: #3882f6;
+  display: flex;
+  border-radius: 25px;
+  padding: 30px 15px;
+  justify-content: space-around;
+}
+
+.call-button {
+  border-radius: 15px;
+  background-color: #3882f6;
+  border: solid white;
+  color: white;
+  padding: 0px 12px;
+}
+
+.call-desc-title {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.call-desc-desc {
+  color: white;
+  font-size: 14px;
 }
