@@ -78,3 +78,42 @@ body {
 ul {
   list-style-type: none;
 }
+
+.images-info {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.images-info-title {
+  padding-bottom: 32px;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.info {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  display: block;
+}
+
+.image-2 {
+  height: 100px;
+  width: 100px;
+  border: solid lightblue;
+  border-radius: 25px;
+}
