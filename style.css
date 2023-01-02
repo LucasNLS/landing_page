@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.header {
+  background-color: #1f2937;
+  padding-bottom: 100px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 18px;
+  margin-bottom: 48px;
+}
+
+.second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 18px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header-image {
+  height: 100px;
+  width: 250px;
+  text-align: center;
+  background-color: grey;
+  border: none;
+}
+
+.desc-title {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.desc-subtext {
+  font-size: 18px;
+  color: grey;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  color: white;
+  width: 80px;
+  align-self: center;
+  border-radius: 25px;
+  margin: 0px;
+  border: none;
+  padding: 8px 14px;
+}
+
+.header .first .logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-family: extra-bold;
+}
+
+.links {
+  color: grey;
+  font-size: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
