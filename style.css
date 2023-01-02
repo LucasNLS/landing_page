@@ -35,11 +35,12 @@ body {
 }
 
 .header-image {
-  height: 100px;
-  width: 250px;
+  height: auto;
+  width: 400px;
   text-align: center;
   background-color: grey;
-  border: none;
+  border: solid white;
+  border-radius: 15px;
 }
 
 .desc-title {
@@ -99,7 +100,8 @@ ul {
 .container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  flex: 1;
+  gap: 60px;
   width: 100%;
 }
 
@@ -110,15 +112,12 @@ ul {
   align-items: center;
 }
 
-div {
-  display: block;
-}
-
 .image-2 {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border: solid lightblue;
   border-radius: 25px;
+  display: block;
 }
 
 .quote {
@@ -169,4 +168,17 @@ div {
 .call-desc-desc {
   color: white;
   font-size: 14px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.footer-text {
+  align-self: center;
+  color: #e5e7eb;
+  font-size: 18px;
 }
